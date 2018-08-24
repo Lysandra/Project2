@@ -1,3 +1,24 @@
+body {
+  background-image: url("../img/basic-globe-free-photos-1165609.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .list-group-item {
   line-height: 2.5;
+}
+
+#msg {
+  color: white;
+  text-align: right;
+}
+
+#login {
+  color: white;
+  text-align: right;
+}
+
+.form-group {
+  color: white;
+  text-align: right;
 }
