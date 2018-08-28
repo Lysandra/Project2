@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title></title>
+      {{!-- materialize Compiled and minified CSS --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    {{!-- bootstrap font Awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {
+  
+  background: url("../img/Basic-Globe_001.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+</head>
+ 
+<body>
+     <div class="container-fluid bg">
+        <div class="row">
+            <div class="input-field col s9 "></div>
+            <div class="input-field col s3  ">
+               <form id="signin" name="signin" method="post" action="signin">
+                <label for="email">Email Address</label>
+                <input class="text" name="email" type="text" />
+                <label for="password">Password</label>
+                <input name="password" type="password" />
+                <span><input class="btn waves-effect #1a237e indigo darken-4" type="submit" value="Sign In" /></span>   
+                <span><a href="/signup" class="blue-text text-darken-4">Not a member? Sign Up</a></span> 
+                </form>
+                					
+            </div>   
+        </div>
+    </div> 
+</body>
+ 
+</html>
