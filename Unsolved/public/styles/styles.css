@@ -27,6 +27,14 @@
   padding-left: 50%;
   
 }
+
+#updatePrices {
+  font-size: 20px;
+  font-family: 'Share Tech Mono', monospace;
+  color: yellow;
+  background-color: black;
+}
+
 #msg {
   color: white;
   text-align: right;
@@ -42,6 +50,15 @@
 
 #crytoDiv{
   text-align: left;
+}
+
+.imagestyle{
+  border-radius:10px;
+  border: solid 1.5px #12254e;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .form-group {
