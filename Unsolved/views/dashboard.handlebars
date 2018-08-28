@@ -2,16 +2,37 @@
 <html>
  
 <head>
-    <title>Passport with Sequelize</title>
+    <title></title>
+      {{!-- materialize Compiled and minified CSS --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    {{!-- bootstrap font Awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {
+  
+  background: url("../img/Basic-Globe_001.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
 </head>
  
 <body>
-    <h2>Dashboard</h2>
-    <h5>Welcome you are logged in!</h5>
-    <br>
-    <form id="logout" name="logout" method="get" action="/logout">
-    <input class="btn" type="submit" value="Logout" />
-    </form>
+    <div class="container-fluid bg" id="profile">
+        
+        <div class="row">
+            <div class="input-field col s9 "></div>
+            <div class="input-field col s3 ">
+                <h2>Profile page</h2>
+                <h5>Welcome! you are now logged in!</h5>
+               <form id="logout" name="logout" method="get" action="/logout">
+               <span><input class="btn waves-effect #1a237e indigo darken-4" type="submit" value="Logout" /></span>  	
+               </form>				
+            </div>   
+        </div>
+    </div> 
 </body>
  
 </html>
