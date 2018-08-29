@@ -25,7 +25,10 @@
 .welcome {
   padding-top: 20%;;
   padding-left: 50%;
-  
+ 
+}
+.fill {
+  font-size: 20px;
 }
 
 #updatePrices {

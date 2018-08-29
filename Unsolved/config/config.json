@@ -5,7 +5,8 @@
       "password": "root",
       "database": "sequelize_passport",
       "host": "localhost",
-      "dialect": "mysql"
+      "dialect": "mysql",
+      "port": 3306
     
     },
     
