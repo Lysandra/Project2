@@ -135,9 +135,9 @@ nav.fill .filler a:hover {
 }
 nav.fill .filler a:hover:after {
   z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
+  animation: fill .4s forwards;
+  -webkit-animation: fill .4s forwards;
+  -moz-animation: fill .4s forwards;
   opacity: 1;
 }
 
