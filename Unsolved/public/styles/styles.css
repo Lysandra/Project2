@@ -9,13 +9,42 @@
   -o-background-size: cover;
   background-size: cover;
 } */
+.fillProfile {
+  background-image: url("../img/light-streak.jpg");
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-left: 180px;
+  background-repeat: no-repeat;
+  background-size: 2000px 110px;
+  font-size: 60px;
+  color: white;  
+}
+tr {
+  background: #fff;
+}
+.table-active {
+  background: #fff;
+}
+#righty {
+  float: right;
+}
 
+.h3black {
+  color: black;
+}
+.navProfile {
+  /* background: 100%;
+  
+  padding-bottom: 10px;
+  padding-top: 25px; */
+}
 
 .bg{
   margin:20px ;
   color: black;
  
 }
+
 .signup{
   margin-right: 20px;
 
