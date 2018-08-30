@@ -13,7 +13,7 @@ module.exports = function(app,passport) {
         }
     )); 
 
-    app.get('/dashboard',isLoggedIn, authController.dashboard);
+    app.get('/profile',isLoggedIn, authController.profile);
 
     app.get('/logout',authController.logout);
 

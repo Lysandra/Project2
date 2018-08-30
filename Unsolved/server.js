@@ -25,10 +25,10 @@ app.engine(
       msg: "Welcome!",
   });
   });
-  app.get("/profile", function(req, res) {
-    res.render("profile", {
-  });
-  });
+  // app.get("/profile", function(req, res) {
+  //   res.render("profile", {
+  // });
+  // });
 
 //bodyParser setup 
 app.use(bodyParser.urlencoded({ extended:true}));
