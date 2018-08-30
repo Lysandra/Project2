@@ -10,7 +10,23 @@
     <meta name="description" content="Source code generated using layoutit.com">
 	<meta name="author" content="LayoutIt!">
 	
-	<nav class="nav nav-pills nav-fill fill">
+	{{!-- <nav class="nav nav-pills nav-fill fill">
+		<span class="filler">
+			<a class="nav-item nav-link" href="#">Home</a>
+			<a class="nav-item nav-link" href="#">News</a>
+			<a class="nav-item nav-link" href="#">FTT Member Information</a>
+			<a class="nav-item nav-link" href="#">Member Login</a>
+			<a class="nav-item nav-link" href="/logout" name="logout" method="get" action="/logout" >Logout</a>
+		</span>
+	</nav> --}}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+		<nav class="nav nav-pills nav-fill fill">
 		<span class="filler">
 			<a class="nav-item nav-link" href="#">Home</a>
 			<a class="nav-item nav-link" href="#">News</a>
@@ -19,19 +35,13 @@
 			<a class="nav-item nav-link" href="/logout" name="logout" method="get" action="/logout" >Logout</a>
 		</span>
 	</nav>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<marquee id="updatePrices" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
 			</marquee>
 		</div>
 	</div>
+	
 	<div class="row">
 		<div class="col-md-6">
 			<div class="jumbotron">
