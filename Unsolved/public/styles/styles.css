@@ -157,3 +157,83 @@ nav.fill .filler a:hover:after {
   }
 }
 
+/* Members Page */
+#members {
+  background-image: url("../img/light-streak.jpg");
+  padding: 100px;
+  padding-left: 180px;
+  background-repeat: no-repeat;
+  background-size: 2000px 175px;
+  font-size: 60px;
+  color: white;  
+}
+
+.msg {
+  font-size: 60px;
+  color: white;  
+}
+
+.members-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  /* margin: auto; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.members-row {
+  /* background-color: #f1f7f7; */
+  border-style: solid;
+  border-bottom-width: 15px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-color:#2261a4;
+  padding-top: 10px;
+}
+
+#members-name {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #040926;
+
+}
+
+#members-brandstatement {
+  font-size: 14px;
+  color: #203880;
+}
+
+#links {
+  text-align: center;
+  color: #203880;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* News Page */
+#news {
+  background-image: url("../img/light-streak.jpg");
+  padding: 100px;
+  padding-left: 180px;
+  background-repeat: no-repeat;
+  background-size: 2000px 175px;
+  font-size: 60px;
+  color: white;
+}
+
+.article-title {
+  color: #203880;
+  font-size: 20px;
+  font-weight: bold;
+}
+
