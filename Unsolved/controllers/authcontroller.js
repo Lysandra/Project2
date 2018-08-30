@@ -10,9 +10,9 @@ exports.signin = function(req, res) {
     res.render('signin');
  
 }
-exports.dashboard = function(req, res) {
+exports.profile = function(req, res) {
  
-    res.render('dashboard');
+    res.render('profile');
  
 }
 exports.logout = function(req, res) {

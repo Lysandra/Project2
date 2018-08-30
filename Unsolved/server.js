@@ -25,6 +25,10 @@ app.engine(
       msg: "Welcome",
   });
   });
+  // app.get("/profile", function(req, res) {
+  //   res.render("profile", {
+  // });
+  // });
 
 //bodyParser setup 
 app.use(bodyParser.urlencoded({ extended:true}));
@@ -44,7 +48,10 @@ app.use(passport.session()); // persistent login sessions
 
 //Models
 var models = require("./models");
+
 //Routes
+// require("./routes/apiRoutes")(app);
+// require("./routes/htmlRoutes")(app);
 var authRoute = require('./routes/auth.js')(app,passport);
 
 //load passport strategies
