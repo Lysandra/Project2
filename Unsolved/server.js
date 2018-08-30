@@ -22,7 +22,7 @@ app.engine(
   );
   app.get("/", function(req, res) {
     res.render("index", {
-      msg: "Welcome!",
+      msg: "Welcome",
   });
   });
   // app.get("/profile", function(req, res) {
