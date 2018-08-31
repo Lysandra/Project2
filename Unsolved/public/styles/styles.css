@@ -160,7 +160,7 @@ nav.fill .filler a:hover:after {
 /* Members Page */
 #members {
   background-image: url("../img/light-streak.jpg");
-  padding: 100px;
+  padding: 70px;
   padding-left: 180px;
   background-repeat: no-repeat;
   background-size: 2000px 175px;
@@ -223,7 +223,7 @@ nav.fill .filler a:hover:after {
 /* News Page */
 #news {
   background-image: url("../img/light-streak.jpg");
-  padding: 100px;
+  padding: 70px;
   padding-left: 180px;
   background-repeat: no-repeat;
   background-size: 2000px 175px;
@@ -231,9 +231,19 @@ nav.fill .filler a:hover:after {
   color: white;
 }
 
-.article-title {
+h4 {
   color: #203880;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 15px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.article-image {
+  padding-bottom: 20px;
+}
+
+.title-news {
+  font-size: 60px;
+  color: white;
 }
 
