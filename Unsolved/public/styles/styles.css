@@ -9,6 +9,13 @@
   -o-background-size: cover;
   background-size: cover;
 } */
+.newfill {
+  margin-bottom: 10px;
+}
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
 .fillProfile {
   background-image: url("../img/light-streak.jpg");
   padding: 20px;

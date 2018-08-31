@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var queryURL = "https://api.coingecko.com/api/v3/coins?order=market_cap_&per_page=50";
+    var queryURL = "https://api.coingecko.com/api/v3/coins?order=market_cap_&per_page=19";
 
     $.ajax({
         url: queryURL,

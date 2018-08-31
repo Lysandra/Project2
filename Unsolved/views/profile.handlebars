@@ -10,17 +10,7 @@
 
 	<meta name="description" content="Source code generated using layoutit.com">
 	<meta name="author" content="LayoutIt!">
-	<!---------NAV BAR--------->
-	{{!--
-	<nav class="nav nav-pills nav-fill fill">
-		<span class="filler">
-			<a class="nav-item nav-link" href="#">Home</a>
-			<a class="nav-item nav-link" href="#">News</a>
-			<a class="nav-item nav-link" href="#">FTT Member Information</a>
-			<a class="nav-item nav-link" href="#">Member Login</a>
-			<a class="nav-item nav-link" href="/logout" name="logout" method="get" action="/logout">Logout</a>
-		</span>
-	</nav> --}}
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -32,9 +22,9 @@
 		<nav class="nav nav-pills nav-fill fill">
 			<span class="filler">
 				<a class="nav-item nav-link" href="/">Home</a>
-				<a class="nav-item nav-link" href="#">News</a>
-				<a class="nav-item nav-link" href="#">FTT Member Information</a>
-				<a class="nav-item nav-link" href="#">Member Login</a>
+				<a class="nav-item nav-link" href="/news">News</a>
+				<a class="nav-item nav-link" href="/members">Crypto Member Information</a>
+				<a class="nav-item nav-link" href="/signin">Member Login</a>
 				<a class="nav-item nav-link" href="/logout" name="logout" method="get" action="/logout">Logout</a>
 			</span>
 		</nav>
@@ -51,21 +41,27 @@
 		<br><br>
 
 		<div class="row">
+			<div class="col-md-12" id="crytoDiv">
+				<h3 class="h3black">
+					Popular Crypto Currencies
+				</h3>
+			</div>
+			</div>
 			<div class="col-md-6">
 				<h3 class="h3black">
 					h3. Lorem ipsum dolor sit amet.
 				</h3>
 				<div class="card">
 					<h5 class="card-header">
-						Card title
+						Your Personal Profile Information
 					</h5>
 					<div class="card-body">
 						<p class="card-text">
-							Card content
+							Profile Name
 						</p>
 					</div>
 					<div class="card-footer">
-						Card footer
+						Account ID Number
 					</div>
 				</div>
 				<h3 class="h3black">
@@ -137,7 +133,7 @@
 					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 				</p>
 				<p>
-					{{!-- <a class="btn" href="#">View details »</a> --}}
+
 				</p>
 			</div>
 		</div>
@@ -374,106 +370,39 @@
 								</div>
 							</div>
 						</div>
-						{{!-- <button type="button" class="btn btn-lg btn-outline-success">
-							Button
-						</button>
-						<a id="modal-884337" href="#modal-container-884337" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
 
-						<div class="modal fade" id="modal-container-884337" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					</div>
+					<div class="col-md-6">
+						<button type="button" id="lefty" class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#exampleModal1">
+							Sell
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="myModalLabel">
-											Modal title
-										</h5>
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">×</span>
+										<h5 class="modal-title" id="exampleModalLabel">Selling your Currency</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
 										</button>
 									</div>
 									<div class="modal-body">
-										...
+										<strong>The markets are currently under repairs, please check back again soon!</strong>
 									</div>
 									<div class="modal-footer">
-
-										<button type="button" class="btn btn-primary">
-											Save changes
-										</button>
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">
-											Close
-										</button>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
 									</div>
 								</div>
-
-							</div>
-
-						</div>
-
-					</div> --}}
-				</div>
-				<div class="col-md-6">
-					<button type="button" id="lefty" class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#exampleModal">
-						Sell
-					</button>
-
-					<!-- Modal -->
-					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLabel">Selling your Currency</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div>
-								<div class="modal-body">
-									<strong>The markets are currently under repairs, please check back again soon!</strong>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
 							</div>
 						</div>
-					</div>
 
-					{{!-- <button type="button" class="btn btn-lg btn-outline-danger">
-						Button
-					</button>
-					<a id="modal-258365" href="#modal-container-258365" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
-
-					<div class="modal fade" id="modal-container-258365" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="myModalLabel">
-										Modal title
-									</h5>
-									<button type="button" class="close" data-dismiss="modal">
-										<span aria-hidden="true">×</span>
-									</button>
-								</div>
-								<div class="modal-body">
-									...
-								</div>
-								<div class="modal-footer">
-
-									<button type="button" class="btn btn-primary">
-										Save changes
-									</button>
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">
-										Close
-									</button>
-								</div>
-							</div>
-
-						</div>
 
 					</div>
-					--}}
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 
 	<script src="js/jquery.min.js"></script>
