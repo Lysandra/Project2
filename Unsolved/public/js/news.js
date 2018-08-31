@@ -21,37 +21,29 @@ $(document).ready(function() {
       console.log("test: " + title);
       console.log("test: " + imgURL);
 
-      // var descDiv = $("<div>").text(desc);
+      newDiv = $("<div>").addClass("article");
+      newTitle = $("<h4>");
+      newTitle.text(title);
 
-      // $(".article-desc").append(descDiv);
-
-      // var titleDiv = $("<div>").text("Title: " + title);
-      //   var authDiv = $("<div>").text("Author: " + auth);
-      //   var descP = $("<p>").text(desc);
-
-      //   var sourceDiv = $("<div>").text(src);
-      //   //Rie's comment : I added attr("target","_blank") to open an article in a new tab.
-      //   var linkDiv = $("<a>")
-      //     .attr("href", articleURL)
-      //     .attr("target", "_blank");
+      var linkArticle = $("<a>")
+        .attr("href", articleURL)
+        .attr("target", "_blank");
 
       var imgDiv = $("<img>")
         .attr({
           src: imgURL,
           alt: title,
-          width: "55%"
+          height: "300px",
+          width: "400px"
         })
         .addClass("article-image");
 
-      // //$(linkDiv).text(title);
-      $(".media-body").append(imgDiv);
+      var linkImage = linkArticle.append(imgDiv);
 
-      $(".article-title").prepend(title);
+      newDiv.append(newTitle);
+      newDiv.append(linkImage);
 
-
-      // $(".article-title").prepend(titleDiv);
-      // $(".article-image").prepend(monkDiv);
-      // $(".article-desc").append(desc);
+      $("#article-row").append(newDiv);
     }
   });
 });
