@@ -45,7 +45,8 @@
 				</h5>
 				<div class="card-body">
 					<p class="card-text">
-						Card content
+						{{!-- Tooltip --}}
+						<a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
 					</p>
 				</div>
 				<div class="card-footer">
@@ -405,9 +406,17 @@
 </div>
 
 	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/Ticker.js"></script>
 	<script src="js/profileCrypto.js"></script>
 	<script type="text/javascript" src="js/userProfile.js"></script>
+	<script>
+		// Turn on tooltips page-wide
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
+
   </body>
 </html>
