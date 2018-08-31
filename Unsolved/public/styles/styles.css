@@ -1,21 +1,86 @@
-/* body { */
-  /* background-image: url("../img/basic-globe-free-photos-1165609.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background: url("../img/basic-globe-free-photos-1165609.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
+
+hr {
+  border-width: 3px 1px 0;
+  border-style: solid;
+  border-color: palevioletred;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#html1 {
+  height: 100%;
+  overflow: hidden;
+}
+
+#par1 {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.slide {
+  position: relative;
+  padding: 25% 10%;
+  min-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+  transform-style: inherit;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.7);
+}
+
+.slide,
+.slide:before {
+  background: 50% 50% / cover;
+}
+
+#intro {
+  background-image: url("../img/bwglobe.jpg");
+  z-index: 2;
+}
+
+#slide1:before {
+  background-image: url("../img/fourCoins12.jpeg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+  background-image: url("../img/goldBar.jpeg");
+  z-index: 2;
+}
+
+#slide3 {
+  background-image: url("../img/basic-globe-free-photos-1165609.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+.hello {
+  text-shadow: 3px 3px black;
+}
+
 .newfill {
   margin-bottom: 10px;
 }
-.carousel-inner > .item > img {
-  width:640px;
-  height:360px;
+
+.carousel-inner>.item>img {
+  width: 640px;
+  height: 360px;
 }
+
 .fillProfile {
   background-image: url("../img/light-streak.jpg");
   padding: 20px;
@@ -24,14 +89,17 @@
   background-repeat: no-repeat;
   background-size: 2000px 110px;
   font-size: 60px;
-  color: white;  
+  color: white;
 }
+
 tr {
   background: #fff;
 }
+
 .table-active {
   background: #fff;
 }
+
 #righty {
   float: right;
 }
@@ -39,33 +107,40 @@ tr {
 .h3black {
   color: black;
 }
-.navProfile {
-  /* background: 100%;
-  
-  padding-bottom: 10px;
-  padding-top: 25px; */
+
+.currentPort {
+  border: 1px solid black;
 }
 
-.bg{
-  margin:20px ;
+#currentPort1 {
+  border: 1px solid black;
+}
+
+#userName1 {
+  font-size: 40px;
+}
+
+.bg {
+  margin: 20px;
   color: black;
- 
 }
 
-.signup{
+.signup {
   margin-right: 20px;
-
 }
+
 .list-group-item {
   line-height: 2.5;
 }
+
 .welcome {
-  padding-top: 8%;;
+  padding-top: 8%;
+  ;
   padding-left: 40%;
- 
 }
+
 .fill {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #updatePrices {
@@ -85,15 +160,14 @@ tr {
 #login {
   color: white;
   text-align: right;
-  
 }
 
-#crytoDiv{
+#crytoDiv {
   text-align: left;
 }
 
-.imagestyle{
-  border-radius:10px;
+.imagestyle {
+  border-radius: 10px;
   border: solid 1.5px #12254e;
   margin-right: 5px;
   margin-top: 20px;
@@ -105,40 +179,43 @@ tr {
   color: white;
   text-align: right;
 }
+
 h3 {
-  color:white;
+  color: white;
   font-family: 'Ubuntu', sans-serif;
   font-size: 55px;
 }
+
 #cryptoIndex {
   /* color: rgb(255,242,181); */
   font-size: 80px;
   font-family: 'Bungee Shade', cursive;
-  /* background-image: linear-gradient(rgb(255,255,255) 45%, 
-		rgb(170,170,170) 60%,
-		rgb(192,192,192) 74%);
-	text-align: center;
-	-webkit-background-clip:text;
-	-webkit-text-fill-color: transparent; */
-  /* font-size: 14px; */
   color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px #cdd0d7, 0 0 5px #cdd0d7;
+  text-shadow: 1px 1px 2px black, 0 0 25px #cdd0d7, 0 0 5px #cdd0d7;
+}
 
+#cryptoIndex1 {
+  font-size: 80px;
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  text-shadow: 4px 4px 4px black, 0 0 25px red, 0 0 5px red;
 }
 
 .nav-item {
-  padding-left:35px;
-  padding-right:35px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 nav {
   margin: 20px;
 }
+
 nav.stroke .filler a,
 nav.fill .filler a {
   display: inline;
   position: relative;
 }
+
 nav.stroke .filler a:after,
 nav.fill .filler a:after {
   position: absolute;
@@ -152,6 +229,7 @@ nav.fill .filler a:after {
   background: #aaa;
   height: 1px;
 }
+
 nav.stroke .filler a:hover:after {
   width: 100%;
 }
@@ -166,10 +244,12 @@ nav.fill .filler a:after {
   margin: 0;
   opacity: 0;
 }
+
 nav.fill .filler a:hover {
   color: #fff;
   z-index: 1;
 }
+
 nav.fill .filler a:hover:after {
   z-index: -10;
   animation: fill .4s forwards;
@@ -178,15 +258,22 @@ nav.fill .filler a:hover:after {
   opacity: 1;
 }
 
+.card {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
 @-webkit-keyframes fill {
   0% {
     width: 0%;
     height: 1px;
   }
+
   50% {
     width: 100%;
     height: 1px;
   }
+
   100% {
     width: 100%;
     height: 100%;
@@ -202,12 +289,12 @@ nav.fill .filler a:hover:after {
   background-repeat: no-repeat;
   background-size: 2000px 175px;
   font-size: 60px;
-  color: white;  
+  color: white;
 }
 
 .msg {
   font-size: 60px;
-  color: white;  
+  color: white;
 }
 
 .members-image {
@@ -224,7 +311,6 @@ nav.fill .filler a:hover:after {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .members-row {
@@ -234,7 +320,7 @@ nav.fill .filler a:hover:after {
   border-top-width: 0px;
   border-right-width: 0px;
   border-left-width: 0px;
-  border-color:#2261a4;
+  border-color: #2261a4;
   padding-top: 10px;
 }
 
@@ -242,7 +328,6 @@ nav.fill .filler a:hover:after {
   font-size: 30px;
   font-weight: bolder;
   color: #040926;
-
 }
 
 #members-brandstatement {
@@ -283,4 +368,3 @@ h4 {
   font-size: 60px;
   color: white;
 }
-
