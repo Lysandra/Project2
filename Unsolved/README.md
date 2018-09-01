@@ -2,57 +2,54 @@
 Crypto
 Welcome to the new era global currency...
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+# Motivation
+Member management application for crpto currency portfolio.  Provides current crypto market data and current news feed specifically relating to the crypto market. 
 
 # Prerequisites
-Please install the 
+Please install the dependencies via NPM Services; please visit https://www.npmjs.com/.
+Lauch MAMP, local server; please visit https://www.mamp.info/en/.
+Lauch MySQL Workbench, database administration; please visit https://dev.mysql.com/downloads/workbench/.
 
-dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.3",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "express-session": "^1.15.6",
-    "mysql2": "^1.5.3",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "path": "^0.12.7",
-    "sequelize": "^4.38.0"
+# Dependancies
+      "bcrypt-nodejs"
+      "body-parser"
+      "dotenv"
+      "express"
+      "express-handlebars"
+      "express-session"
+      "mysql2"
+      "passport"
+      "passport-local"
+      "path":
+      "sequelize"
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+# devDependencies"
+      "chai"
+      "chai-http"
+      "eslint"
+      "eslint-config-prettier"
+      "eslint-plugin-prettier"
+      "mocha":
+      "prettier"
 
-Say what the step will be
+# Technology
+Parallax
 
-Give the example
-And repeat
+# Sceenshots
+Click to view.
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+#Home
 
-Running the tests
-Explain how to run the automated tests for this system
+#Login
 
-Break down into end to end tests
-Explain what these tests test and why
+#Profile
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+#News
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+#Our Team
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+# Deployment
+https://aqueous-shore-74737.herokuapp.com/
 
 # Versioning
 Version 2.0
@@ -64,9 +61,7 @@ Lysandra Owen
 Rie Ryo
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License.
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+#Acknowledgments
+Version 1 contribuor Hazael Dominguez
