@@ -38,10 +38,7 @@
 			</marquee>
 			<br><br>
 			<div class="col-md-12" id="crytoDiv">
-				<h3 class="h3black text-center">
-					Popular Crypto Currencies
-				</h3>
-
+				<h3 class="h3black text-center" data-toggle="tooltip" data-html="true" title="<em>Here are the <strong>top 25 MOST POPULAR</strong> Crypto Currencies. Select an icon and see more information in the Watchlist section</em>">Popular Crypto Currencies</h3>
 			</div>
 		
 			<div class="container">
@@ -61,7 +58,8 @@
 				<h5 class="card-header text-center">
 					Your Personal Account Information:
 					<span id="firstname" name="firstname" method="get" action="/userdata"></span>
-					<h2 id="userName1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome &nbsp; <span class="member-name" {{this.firstname}}></span></h2>
+					<h2 id="userName1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome <span class="member-name" {{this.firstname}}></span></h2>
+					
 				</h5>
 				<div class="card-body">
 
@@ -80,9 +78,9 @@
            width: 100%;
            margin-left: auto;
            margin-right: auto;">
-				<h3 class="h3black">
-					“It's money 2.0, a huge huge huge deal.” - Chamath Palihapitiya
-				</h3>
+				<h3 class="h3black" data-toggle="tooltip" data-html="true" title="<em>This is the amount of actual cash you have available to make purchases of Crypto Currencies.</em>">Current Available Cash: $124,567.88</h3>
+					
+
 				<hr style="border-width: 6px 6px 0;
            border-style: solid;
            border-color: rgb(91, 119, 245); 
@@ -154,95 +152,112 @@
 		</div>
 		<div class="col-md-6" id="currentPort1">
 
-			<h3 class="h3black">
-				Current Portfolio
-			</h3>
+			<h3 class="h3black" data-toggle="tooltip" data-html="true" title="<em>This section displays your current assets/holdings that you OWN and their market value</em>">Current Portfolio</h3>>
+				
 			<table class="table currentPort">
 				<thead>
 					<tr>
 						<th>
-							#
+							Ticker
 						</th>
 						<th>
-							Product
+							Name
 						</th>
 						<th>
-							Payment Taken
+							Quantity
 						</th>
 						<th>
-							Status
+							Price
+						</th>
+						<th>
+							Market Value
 						</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>
-							1
+							BTC
 						</td>
 						<td>
-							TB - Monthly
+							Bitcoin
 						</td>
 						<td>
-							01/04/2012
+							500
 						</td>
 						<td>
-							Default
+							$7,053
+						</td>
+						<td>
+							$3,526,500
 						</td>
 					</tr>
 					<tr class="table-active">
 						<td>
-							1
+							LTC
 						</td>
 						<td>
-							TB - Monthly
+							Litecoin
 						</td>
 						<td>
-							01/04/2012
+							1000
 						</td>
 						<td>
-							Approved
+							$64.00
+						</td>
+						<td>
+							$64,000
 						</td>
 					</tr>
 					<tr class="table-success">
 						<td>
-							2
+							NEO
 						</td>
 						<td>
-							TB - Monthly
+							NEO
 						</td>
 						<td>
-							02/04/2012
+							1000
 						</td>
 						<td>
-							Declined
+							$21.00
+						</td>
+						<td>
+							$21,000
 						</td>
 					</tr>
 					<tr class="table-warning">
 						<td>
-							3
+							QTUM
 						</td>
 						<td>
-							TB - Monthly
+							QTUM
 						</td>
 						<td>
-							03/04/2012
+							10000
 						</td>
 						<td>
-							Pending
+							$5.00
+						</td>
+						<td>
+							$50,000
 						</td>
 					</tr>
 					<tr class="table-danger">
 						<td>
-							4
+							EOS
 						</td>
 						<td>
-							TB - Monthly
+							EOS
 						</td>
 						<td>
-							04/04/2012
+							2000
 						</td>
 						<td>
-							Call in to confirm
+							$7.00
+						</td>
+						<td>
+							$14,000
 						</td>
 					</tr>
 				</tbody>
@@ -253,17 +268,16 @@
            width: 100%;
            margin-left: auto;
            margin-right: auto;">
-			<h3 class="h3black">
-				Portfolio Value: $64,982.34
-			</h3>
+			<h3 class="h3black" data-toggle="tooltip" data-html="true" title="<em>This section displays the total value of all your holdings. This value fluctuates as the markets fluctuates.</em>">Portfolio Value: $3,675,500</h3>
+				
 			<hr style="border-width: 6px 6px 0;
            border-style: solid;
            border-color: rgb(91, 119, 245); 
            width: 100%;
            margin-left: auto;
            margin-right: auto;">
-			<h3 class="h3black text-center">
-				Trade Center
+			<h3 class="h3black text-center" data-toggle="tooltip" data-html="true" title="<em>This section is where ALL THE ACTION takes place! The trading center: where you can make a fortune or lose it all! It is not for the faint of heart.</em>">Trade Center</h3>
+				
 			</h3>
 			<br>
 			<div class="row">
@@ -344,18 +358,18 @@
 			</div>
 
 		</div>
-		{{!--
+		
 		<div class="row">
 			<div class="col-md-12">
 			</div>
 		</div>
-	</div> --}} {{!--
+	</div> 
 	<div class="col-md-6">
-		<h3 class="h3black">
-			Cypto Currency Watch List
+		<h3 class="h3black" data-toggle="tooltip" data-html="true" title="<em>This section is the currency Watch List and <strong>Information Center</strong>. Here you can learn about the different Crypto Currency at leisure</em>">Cypto Currency Watch List</h3>>
+			
 		</h3>
-		<table class="table table-hover">
-			<thead>
+		<table class="table table-hover" id="dataDiv">
+			{{!-- <thead>
 				<tr>
 					<th>
 						#
@@ -442,17 +456,24 @@
 						Call in to confirm
 					</td>
 				</tr>
-			</tbody>
-		</table> --}} {{!--
-	</div> --}} {{!--
+			</tbody> --}}
+		</table>  
+	</div> 
 	</div>
-	</div> --}}
+	</div>
 
 	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/Ticker.js"></script>
 	<script src="js/profileCrypto.js"></script>
 	<script type="text/javascript" src="js/userProfile.js"></script>
+
+	<script>
+		$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
 </body>
 
 </html>
