@@ -8,12 +8,13 @@ $(document).ready(function () {
     })
         .then(function (response) {
 
-            console.log(response);
-
-
             var results = response;
 
+            console.log(results);
+
             for (i = 0; i < results.length; i++) {
+
+                console.log(results[i].name);
 
                 var name = results[i].name;
                 var idG = results[i].id;
