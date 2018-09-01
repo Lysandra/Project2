@@ -46,7 +46,7 @@ app.use(passport.session()); // persistent login sessions
 //     res.send("Welcome to Passport with sequelize");
 // });
 
-//Models
+//Models1
 var models = require("./models");
 
 //Routes
