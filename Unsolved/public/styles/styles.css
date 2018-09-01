@@ -320,7 +320,7 @@ nav.fill .filler a:hover:after {
   border-top-width: 0px;
   border-right-width: 0px;
   border-left-width: 0px;
-  border-color: #2261a4;
+  border-color: #040926;
   padding-top: 10px;
 }
 
@@ -336,7 +336,7 @@ nav.fill .filler a:hover:after {
 }
 
 #member-links {
-  color: #203880;
+  color: #3a92f0;;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -359,7 +359,7 @@ h5 {
 }
 
 a {
-  color: #203880;
+  color: #3a92f0;;
   padding-top: 15px;
   padding-left: 0px; 
   text-align: left;
@@ -391,4 +391,8 @@ img {
   margin-left: 40px;
   padding-top: 75px;
   color: #007bff;
+}
+
+.anchor-title {
+  color: #203880;
 }
