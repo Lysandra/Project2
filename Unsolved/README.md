@@ -36,7 +36,6 @@ Lauch MySQL Workbench, database administration; please visit https://dev.mysql.c
 Parallax
 
 # Sceenshots
-
 Click to view.
 
 ##Home
