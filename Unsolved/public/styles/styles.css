@@ -331,15 +331,20 @@ nav.fill .filler a:hover:after {
 }
 
 #members-brandstatement {
-  font-size: 14px;
+  font-size: 18px;
   color: #203880;
 }
 
-#links {
-  text-align: center;
+#member-links {
   color: #203880;
   font-size: 15px;
   font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+h5 {
+  text-align: center;  
 }
 
 /* News Page */
@@ -353,18 +358,37 @@ nav.fill .filler a:hover:after {
   color: white;
 }
 
-h4 {
+a {
   color: #203880;
   padding-top: 15px;
-  padding-left: 0px;
+  padding-left: 0px; 
   text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
 }
 
-.article-image {
+img {
   padding-bottom: 20px;
+  display: block;
+  float: left;
+  padding-right: 20px;
 }
 
 .title-news {
   font-size: 60px;
   color: white;
+}
+
+.article-contain {
+  max-width: 900px;
+  margin-top: -10px;
+}
+
+.anchor-desc {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 40px;
+  padding-top: 75px;
+  color: #007bff;
 }
