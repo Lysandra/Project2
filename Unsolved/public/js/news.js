@@ -21,27 +21,43 @@ $(document).ready(function() {
       console.log("test: " + title);
       console.log("test: " + imgURL);
 
-      newDiv = $("<div>").addClass("article");
-      newTitle = $("<h4>");
+      newDiv = $("<div>");
+
+      newTitle = $("<a>")
+        .attr({
+          href: articleURL,
+          target: "_blank"
+        })
+        .addClass("anchor-title");
+
       newTitle.text(title);
+
+      newDesc = $("<a>")
+        .attr({
+          href: articleURL,
+          target: "_blank"
+        })
+        .addClass("anchor-desc");
+
+      newDesc.text(desc);
 
       var linkArticle = $("<a>")
         .attr("href", articleURL)
         .attr("target", "_blank");
 
-      var imgDiv = $("<img>")
-        .attr({
-          src: imgURL,
-          alt: title,
-          height: "300px",
-          width: "400px"
-        })
-        .addClass("article-image");
+      var imgDiv = $("<img>").attr({
+        src: imgURL,
+        alt: title,
+        height: "300px",
+        width: "400px"
+      });
 
       var linkImage = linkArticle.append(imgDiv);
 
+      newTitle.append(linkImage);
       newDiv.append(newTitle);
       newDiv.append(linkImage);
+      newDiv.append(newDesc);
 
       $("#article-row").append(newDiv);
     }
