@@ -7,8 +7,10 @@ Member management application for crpto currency portfolio.  Provides current cr
 
 # Prerequisites
 Please install the dependencies via NPM Services; please visit https://www.npmjs.com/.
+Lauch MAMP, local server; please visit https://www.mamp.info/en/.
+Lauch MySQL Workbench, database administration; please visit https://dev.mysql.com/downloads/workbench/.
 
-    ##Dependancies
+# Dependancies
       "bcrypt-nodejs"
       "body-parser"
       "dotenv"
@@ -21,7 +23,7 @@ Please install the dependencies via NPM Services; please visit https://www.npmjs
       "path":
       "sequelize"
 
-    ##devDependencies"
+# devDependencies"
       "chai"
       "chai-http"
       "eslint"
@@ -30,28 +32,27 @@ Please install the dependencies via NPM Services; please visit https://www.npmjs
       "mocha":
       "prettier"
 
-Lauch MAMP, local server; please visit https://www.mamp.info/en/.
-Lauch MySQL Workbench, database administration; please visit https://dev.mysql.com/downloads/workbench/.
-
 # Technology
 Parallax
 
 # Sceenshots
 Click to view.
 
-    ##Home
+##Home
+
+##SignIn
+https://github.com/Lysandra/Project2/blob/master/Unsolved/public/img/SignIn%20Pic.PNG
 
 
-    ##Login
-    ("../img/Ashley-Weber.PNG")
+##SignUp
 
-    ##Profile
+##Profile
 
+##News
+https://github.com/Lysandra/Project2/blob/master/Unsolved/public/img/New%20Pic.PNG
 
-    ##News
-
-
-    ##Our Team
+#Our Team
+https://github.com/Lysandra/Project2/blob/master/Unsolved/public/img/Members%20Pic.PNG
 
 # Deployment
 https://aqueous-shore-74737.herokuapp.com/
@@ -68,5 +69,5 @@ Rie Ryo
 # License
 This project is licensed under the MIT License.
 
-#Acknowledgments
+# Acknowledgments
 Version 1 contribuor Hazael Dominguez
