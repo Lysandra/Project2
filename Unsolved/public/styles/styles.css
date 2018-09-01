@@ -1,4 +1,3 @@
-
 hr {
   border-width: 3px 1px 0;
   border-style: solid;
@@ -8,6 +7,7 @@ hr {
   margin-left: auto;
 }
 
+/* parallax info */
 #html1 {
   height: 100%;
   overflow: hidden;
@@ -72,13 +72,49 @@ hr {
   text-shadow: 3px 3px black;
 }
 
+.card {
+  border: 1px solid black;
+}
+
+.card-header {
+  background-color: rgb(138, 134, 134);
+  font-size: 35px;
+  color: #fff;
+}
+
 .newfill {
   margin-bottom: 10px;
+}
+
+/* carosal info */
+.cColor {
+  font-size: 35px;
+  text-shadow: #040926 1px 1px;
+}
+
+.carousel {
+  width: 650px;
+  background-color: rgb(237, 240, 243);
 }
 
 .carousel-inner>.item>img {
   width: 640px;
   height: 360px;
+}
+
+/* bottom of profile page info */
+.underTable {
+  padding-top: 40px;
+}
+
+.cryptoWorld {
+  font-size: 60px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.cryptopara {
+  font-size: 30px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .fillProfile {
@@ -114,10 +150,13 @@ tr {
 
 #currentPort1 {
   border: 1px solid black;
+  margin: 0 auto;
 }
 
 #userName1 {
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 10px;
 }
 
 .bg {
@@ -204,6 +243,7 @@ h3 {
 .nav-item {
   padding-left: 35px;
   padding-right: 35px;
+  color: #3a92f0;
 }
 
 nav {
