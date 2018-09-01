@@ -298,12 +298,12 @@ nav.fill .filler a:hover:after {
 }
 
 .members-image {
-  height: 300px;
+  height: 325px;
   width: 300px;
   border-radius: 10px;
   position: relative;
   /* margin: auto; */
-  top: 0;
+  top: 100px;
   left: 0;
   right: 0;
   bottom: 0;
