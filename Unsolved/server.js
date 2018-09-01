@@ -42,9 +42,9 @@ app.use(passport.initialize());
  
 app.use(passport.session()); // persistent login sessions
 
-app.get('/', function(req,res){
-    res.send("Welcome to Passport with sequelize");
-});
+// app.get('/', function(req,res){
+//     res.send("Welcome to Passport with sequelize");
+// });
 
 //Models
 var models = require("./models");
